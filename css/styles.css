@@ -163,4 +163,20 @@ footer .footer-content .copyright {
         margin: 20px;margin-left: 150px;
 }
 
-section.cooky{color: red;}
+.cooky {
+  background-color: rgb(245, 97, 166);
+  animation-name: change;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  border-radius: 20%;
+  text-align: center;
+}
+
+@keyframes change {
+  from {background-color: red;}
+  to {background-color: palevioletred;}
+  50% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+  }
