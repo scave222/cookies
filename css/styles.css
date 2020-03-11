@@ -139,7 +139,7 @@ footer nav {
 
 /*======= Create a selector for the anchor tag in the footer to have the following styles:*/
 .naviga a{
-  margin: 10px;
+  margin: auto;
   color: black;
   text-decoration: underline;
 }
@@ -162,3 +162,5 @@ footer .footer-content .copyright {
 .cookie{
         margin: 20px;margin-left: 150px;
 }
+
+section.cooky{color: red;}
