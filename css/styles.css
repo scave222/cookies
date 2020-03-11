@@ -162,6 +162,8 @@ footer .footer-content .copyright {
 }
 .cookie{
         margin: 20px;margin-left: 150px;
+        width: 300px;
+        height: 300px;
 }
 
 .cooky {
@@ -169,8 +171,11 @@ footer .footer-content .copyright {
   animation-name: change;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-  border-radius: 20%;
   text-align: center;
+}
+
+.coo{width: 600px;
+    height: 200px;
 }
 
 @keyframes change {
